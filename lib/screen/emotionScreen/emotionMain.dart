@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../constants.dart';
 import '../../theme.dart';
-import 'package:KDT_SENTIMENTO/screen/emotionScreen/emotioncard.dart';
+import 'package:KDT_SENTIMENTO/screen/emotionScreen/emotionCard.dart';
 import 'package:KDT_SENTIMENTO/screen/emotionScreen/emotionlearn.dart';
 import 'package:KDT_SENTIMENTO/screen/emotionScreen/expresslearn.dart';
 
@@ -99,7 +99,7 @@ class EmotionCard extends StatelessWidget {
         ),
         onPressed: () {
           Navigator.push(
-              context, MaterialPageRoute(builder: (_) => emotioncard()));
+              context, MaterialPageRoute(builder: (_) => EmotionCardScreen()));
         },
         child: Text(
           '단어 카드',
