@@ -1,11 +1,10 @@
 import 'package:KDT_SENTIMENTO/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:KDT_SENTIMENTO/screen/actingScreen/actingMain.dart';
 import 'package:KDT_SENTIMENTO/screen/emotionScreen/emotionMain.dart';
 import 'package:KDT_SENTIMENTO/screen/sentenceScreen/sentenceMain.dart';
 import 'package:KDT_SENTIMENTO/screen/speechScreen/speechMain.dart';
-
+import 'package:KDT_SENTIMENTO/screen/actingScreen/actingCameraScreen.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -123,7 +122,7 @@ class ActingLearningBtn extends StatelessWidget {
       ),
       onPressed: () {
         Navigator.push(context,
-            MaterialPageRoute(builder: ((context) => actingMain())));
+            MaterialPageRoute(builder: ((context) => ActingCameraScreen(title: '',))));
       },
       child: Padding(
         padding: const EdgeInsets.all(0.0),
