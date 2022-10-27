@@ -50,7 +50,8 @@ dependencies:
   image: ^3.2.2
   permission_handler: ^10.2.0
   logger: ^1.0.0
-
+  flutter_tts: ^3.5.3
+  flip_card: ^0.6.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
