@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:KDT_SENTIMENTO/screen/emotionScreen/emotionMain.dart';
 import 'package:KDT_SENTIMENTO/screen/sentenceScreen/sentenceMain.dart';
-import 'package:KDT_SENTIMENTO/screen/speechScreen/speechMain.dart';
+import 'package:KDT_SENTIMENTO/screen/speechScreen/speechMenu.dart';
 import 'package:KDT_SENTIMENTO/screen/actingScreen/actingCameraScreen.dart';
 
 class Home extends StatelessWidget {
@@ -198,7 +198,7 @@ class VoiceLearningBtn extends StatelessWidget {
       ),
       onPressed: () {
         Navigator.push(context,
-            MaterialPageRoute(builder: ((context) => speechMain())));
+            MaterialPageRoute(builder: ((context) => speechMenu())));
       },
       child: Padding(
         padding: const EdgeInsets.all(0.0),
